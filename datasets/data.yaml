@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['House']
+
+roboflow:
+  workspace: tour-de-chicago
+  project: josh-edits-2.5-outterclassifier
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tour-de-chicago/josh-edits-2.5-outterclassifier/dataset/1
