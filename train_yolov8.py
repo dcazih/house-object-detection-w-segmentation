@@ -10,7 +10,7 @@ DATA_YAML = "data.yaml"
 EPOCHS = 100
 IMG_SIZE = 640
 PROJECT_NAME = "house-segmentation"
-MODEL_SIZES = ["yolov8n-seg.pt", "yolov8s-seg.pt", "yolov8m-seg.pt"]
+MODEL_SIZES = ["yolov8n.pt", "yolov8s.pt", "yolov8m.pt"] 
 SAVE_DIR = "models"  # where best.pt copies go
 WANDB_PROJECT = "HouseSeg"
 
